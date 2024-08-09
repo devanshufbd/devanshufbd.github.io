@@ -22,11 +22,11 @@ function getPage() {
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope, $interval) {
     $scope.projects = [
-        {'title':'amor.am','descr':'Full stack development of one of the most popular dating websites in Georgia.','tags':['Android','Java', 'Web', 'NodeJS'],'shots':['amor1.png','amor2.png'],'extras':['https://amor.am'],'level':101},
-        {'title':'ohio.cash','descr':'Onchain and web3 code of Memecoin based on the popular Ohio meme.','tags':['Web', 'Solidity'],'shots':['ohio1.png','ohio2.png'],'extras':['https://www.youtube.com/watch?v=_QMgTLdZG3g&pp=ygUObWVtZSBjb2luIG9oaW8%3D'],'level':101},
-        {'title':'Heera Stable Coin','descr':'Heera is a stablecoin on the Ethereum blockchain. It\'s value is pegged to INR.','tags':['Web', 'Solidity'],'shots':['tether.png'],'extras':[''],'level':101},
         {'title':'Funglible Tokens','descr':'Several tokens across different platforms like Ethereum, Binance Smart Chain, Tron.','tags':['Solidity'],'shots':['erc.png'],'extras':[''],'level':101},
         {'title':'Non Fungible Tokens','descr':'Several NFT projects on Ethereum on Opensea and other market places.','tags':['Solidity'],'shots':['opensea.svg'],'extras':[''],'level':101},
+        {'title':'ohio.cash','descr':'Onchain and web3 code of Memecoin based on the popular Ohio meme.','tags':['Web', 'Solidity'],'shots':['ohio1.png','ohio2.png'],'extras':['https://www.youtube.com/watch?v=_QMgTLdZG3g&pp=ygUObWVtZSBjb2luIG9oaW8%3D'],'level':101},
+        {'title':'Heera Stable Coin','descr':'Heera is a stablecoin on the Ethereum blockchain. It\'s value is pegged to INR.','tags':['Web', 'Solidity'],'shots':['tether.png'],'extras':[''],'level':101},
+        {'title':'amor.am','descr':'Full stack development of one of the most popular dating websites in Georgia.','tags':['Android','Java', 'Web', 'NodeJS'],'shots':['amor1.png','amor2.png'],'extras':['https://amor.am'],'level':101},
         {'title':'Deternet Social','descr':'A completely decentralised social network to enable direct communication between users without servers.','tags':['Android','Java', 'Web', 'NodeJS'],'shots':['shot64.jpg'],'extras':[''],'level':101},        
         {'title':'Audio Recorder','descr':'A simple tool to record user\'s audio on Android.','tags':['Android','Java'],'shots':['shot0.jpg'],'extras':['https://drive.google.com/open?id=1HPTh8n80ajnQ5_bqBjkmGemK9Mspmt3E'],'level':0},
         {'title':'Audio Share','descr':'A simple tool to download and share audio files on Android.','tags':['Android','Java','PHP','MySQL'],'shots':['shot1.jpg'],'extras':['https://drive.google.com/open?id=1SwHXNrORO6OhSdcU4kvIzhdVbH_ATHxS'],'level':0},
